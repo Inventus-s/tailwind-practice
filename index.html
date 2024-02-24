@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Practice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+</head>
+<body>
+    <main class="w-full h-screen  container mx-auto px-4 py-4" > 
+        <nav  class="flex justify-between pt-6 sm:pt-0">
+            <div class="left">
+                <h1 class="text-bold">mukund.design</h1>
+            </div>
+            <div class="right text-bold hidden lg:flex md:flex justify-between w-1/3 ">
+                <h3 class="text-sm">Works</h3>
+                <h3 class="text-sm opacity-50">Service</h3>
+                <h3 class="text-sm opacity-50">Contact</h3>
+                <h3 class="text-sm opacity-50">Pricing</h3>
+            </div>
+            <i class="ri-menu-3-line text-xl text-bold lg:hidden md:hidden"></i>
+        </nav>
+        <section class="w-[80%] relative top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] flex flex-col items-center justify-around gap-[15px]">
+            <div class="circle w-40 h-40 rounded-full overflow-hidden -mb-9">
+                <img class="object-cover h-[100%] w-full" src="/stitch-.png" alt="">
+            </div>
+            <h3 class="text-center font-bold">Hi, I'm Mukund Kumar</h3>
+            <h1 class="text-center font-bold text-2xl lg:text-4xl ">Building digital products, brands and experience.</h1>
+            <h4 class="text-center font-semibold">Hi, I'm Oguz Building digital products, brands and experience and visal development.</h4>
+            <button class="px-4 py-1.5 rounded-2xl bg-black text-white">Connect With Me</button>
+        </section>
+    </main>
+</body>
+</html>
